@@ -1,0 +1,20 @@
+label
+{
+    display:block;
+}
+.textField{
+    display: inline-block;
+}
+.inputText{
+    display: inline-block;
+    width: 200px;
+}
+
+#overview
+{
+    display:none;
+    height: 200px;
+    max-width:500px;
+    margin:auto;
+    background-color: orange;
+}

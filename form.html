@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Ansökan</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="form.css" />
+    
+</head>
+<body>
+    
+    <form action="" id="userForm">
+        <label><span class="textField">Förnamn</span><input type="text" name="firstName" id="firstName" class="inputText" placeholder="Förnamn"></label>
+        <label><span class="textField">Efternamn</span><input type="text" name="lastName" id="lastName" class="inputText"placeholder="Efternamn"></label>
+        <label><span class="textField">Födelsedag</span><input type="date" name="birthday" class="inputText"></label>
+        <label><span class="textField">E-mail</span><input type="email" name="email" class="inputText" placeholder="example@mail.com"></label>
+        <label><span class="textField">Password </span><input type="password" class="inputText" name="password" minlength="8" maxlength="32" required></label>
+        <label><span class="textField">Adress</span><input type="text" name="address"  class="inputText" placeholder="Adress"></label>
+        <label><span class="textField">Postnr</span><input type="number" name="zipCode" class="inputText" placeholder="Postnr"></label>
+        <label><span class="textField">Ort</span><input type="text" name="city" class="inputText" placeholder="Ort"></label>
+        <label><span class="textField"></span>Telefon<input type="tel" class="inputText" ></label>
+        
+        <input type="checkbox" class="messageCheckbox" name="htmlDev"> HTML-Utvecklare <br>
+        <input type="checkbox" class="messageCheckbox" name="cssDev"> CSS-Utvecklare <br>
+        <input type="checkbox" class="messageCheckbox" name="javaDev"> Java-Utvecklare <br>
+        <input type="checkbox" class="messageCheckbox" name="cSharpDev"> C#-Utvecklare <br>
+        <input type="checkbox" class="messageCheckbox" name="coboltDev"> Cobolt-Utvecklare <br>
+
+        <input type="submit" id="submitButton">
+        <input type="reset">
+    </form>
+
+    <div id="overview"></div>
+
+</body>
+<script src="form.js"></script>
+</html>    

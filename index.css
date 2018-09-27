@@ -1,0 +1,27 @@
+.collapsible 
+{
+    display: block;
+    
+    margin:5px auto;
+    height: 30px;
+    width: 100%;
+    
+}
+
+#centered
+{
+    max-width: 50%;
+    height: auto;
+    background-color: blue;
+    margin:auto;
+    padding: 20px;
+}
+
+.textBox
+{
+   visibility: visible;
+   width: 100%;
+   height: auto;
+   background-color:gray;
+   display: none;
+}
